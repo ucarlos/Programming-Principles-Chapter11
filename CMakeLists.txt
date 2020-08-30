@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.15)
+project(Chapter11)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#add_executable(Chapter11 main.cpp)
+add_executable(Test main.cpp)
+add_executable(Problem11_01 Problem11_01.cc)
+add_executable(Problem11_02 Problem11_02.cc)
+add_executable(Problem11_03 Problem11_03.cc)
+add_executable(Problem11_04 Problem11_04.cc)
+add_executable(Problem11_05 Problem11_05.cc)
+add_executable(Problem11_06 Problem11_06.cpp)
+add_executable(Problem11_09 Problem11_09.cpp)
+add_executable(Problem11_10 Problem11_10.cc)
+add_executable(Problem11_12 Problem11_12.cc)
+add_executable(Problem11_13 Problem11_13.cc)

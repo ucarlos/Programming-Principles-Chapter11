@@ -1,0 +1,5 @@
+If you want a horror story, there's a chip on motherboards (in case of AMD it's PSP and
+in case of Intel it's IME) that, if hacked, allows invisible persistent control over
+your PC or laptop. These are used for remote administration when your server far away
+isn't starting so you need to connect to the box without OS. Oh, and there's no way
+to detect if that thing is hacked or misused.

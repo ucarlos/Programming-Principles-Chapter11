@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Chapter11" targetName="Test" />
+      <config projectName="Chapter11" targetName="Chapter11" />
+      <config projectName="Chapter11" targetName="Problem11_10" />
+      <config projectName="Chapter11" targetName="Problem11_09" />
+      <config projectName="Chapter11" targetName="Problem11_06" />
+      <config projectName="Chapter11" targetName="Problem11_05" />
+      <config projectName="Chapter11" targetName="Problem11_04" />
+      <config projectName="Chapter11" targetName="Problem11_03" />
+      <config projectName="Chapter11" targetName="Problem11_02" />
+      <config projectName="Chapter11" targetName="Problem11_01" />
+      <config projectName="Chapter11" targetName="Problem11_13" />
+      <config projectName="Chapter11" targetName="Problem11_12" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="898d07bd-7865-4dc3-b34e-adbb867c58f3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1TJiir5uYv2e5W9TTZYvLz7DpXz" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.Problem11_13">
+    <configuration name="Problem11_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem11_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Problem11_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Problem11_13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chapter11" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chapter11" RUN_TARGET_NAME="Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Problem11_01" />
+      <item itemvalue="CMake Application.Problem11_02" />
+      <item itemvalue="CMake Application.Problem11_03" />
+      <item itemvalue="CMake Application.Problem11_04" />
+      <item itemvalue="CMake Application.Problem11_05" />
+      <item itemvalue="CMake Application.Problem11_06" />
+      <item itemvalue="CMake Application.Problem11_09" />
+      <item itemvalue="CMake Application.Problem11_10" />
+      <item itemvalue="CMake Application.Problem11_12" />
+      <item itemvalue="CMake Application.Problem11_13" />
+      <item itemvalue="CMake Application.Test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="898d07bd-7865-4dc3-b34e-adbb867c58f3" name="Default Changelist" comment="" />
+      <created>1573184728152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573184728152</updated>
+      <workItem from="1573184729366" duration="65000" />
+      <workItem from="1573189175933" duration="5969000" />
+      <workItem from="1573270962596" duration="1545000" />
+      <workItem from="1573530791181" duration="972000" />
+      <workItem from="1573536883489" duration="777000" />
+      <workItem from="1573587617845" duration="616000" />
+      <workItem from="1573613756271" duration="5925000" />
+      <workItem from="1573620485088" duration="138000" />
+      <workItem from="1573702863353" duration="10728000" />
+      <workItem from="1573714742465" duration="189000" />
+      <workItem from="1573868408924" duration="3435000" />
+      <workItem from="1574373848079" duration="386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Problem11_02.cc</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Problem11_03.cc</url>
+          <line>84</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Problem11_04.cc</url>
+          <line>57</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Problem11_09.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Problem11_12.cc</url>
+          <line>44</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

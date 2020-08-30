@@ -1,0 +1,110 @@
+--------------------------------------------------------------------------------
+Chapter 11 Review
+
+--------------------------------------------------------------------------------
+1) Why is I/O tricky for a programmer?
+   Because there are multiple methods of reading/writing to a file.
+
+2) What does the notation << hex do?
+   it changes a istream/ostream to either accept hex input or write
+   using hex output
+
+
+3) What are hexadecimal numbers used for in computer science? Why?
+   Hexadecimal is usually used at the hardware level (such as memory, pointers)
+   due to the fact that two hex digits can be used to represent a byte.
+
+4) Name some of the options you may want to implement for formatting integer
+output.
+	You can use hex, dec, and oct to transform input/output into hexadecimal,
+	decimal and octal bases.
+	Using setw(), you can set the width that a number can take up.
+
+5) What is an manipulator?
+   A manipulator is a means of changing the behavior of iostream into accepting
+   different types of input and output.
+
+6) What is the prefix for decimal? For octal? For hexadecimal?
+   Dec, oct and hex respectively. 
+
+
+7) What is the default output format for floating-point values?
+   defaultfloat
+
+8) What is a field?
+   A field is a ways to format integer values 
+
+9) Explain what setprecision() and setw() do.
+   setprecision() changes the number of digits a floating-number can take up:
+   These include the following:
+   	 Using setprecision() on a defaultfloat sets the max number of digits it
+	 can take up.
+
+	 Using setprecision() on a fixed or scientific sets the max number of digits
+	 past the digit mark(decimal point)
+
+	 Using setw() changes the amount of space an integer/char/string can take up.
+	 It must be used before each argument since does not persist like setprecision()
+	 does.
+
+10) What is the purpose of file open modes?
+    The purpose of a file open mode is to allow the user to choose how
+    ifstream/fstream/ofstream manipulates a file.
+
+11) Which of the following manipulators does not "stick" : hex, scientific,
+setprecision(), showbase, setw?
+    setw() is not persistent.
+		
+		
+
+12) What is the difference between character I/O and binary I/O ?
+    Character I/O converts characters from a file into the specified
+    data type, while binary I/O treats each byte at the binary level
+    (i.e with no sort of formatting)
+    
+
+13) Give an example of when it would probably be beneficial to use a binary file
+instead of a text file.
+
+    An example of when it would be benefical to use a binary file would be if
+    you are dealing with data such as an image file/audio file, 
+
+
+14) Give two examples where a stringstream can be useful.
+    When you want to read an integer/double from a string
+    Formatting input from an ifstream/fstream
+    Creating a string to be passed as an function argument
+
+
+15) What is a file position?
+    A file position is a pointer that points to a location in a file (I mean in bytes).
+    Since C++ treats a file as a series of bytes, the pointer moves to either a specific
+    byte or moved due to istream/ostream
+
+16) What happens if you position a file position beyond the end of file (EOF)?
+    Honestly, its unexpected behavior that is handled by the operating system.
+    For example, I've seen that (on Ubuntu 18.04) that it just spits out garbage
+    characters.
+
+17) When would you prefer line-oriented input to type-specific input?
+    If you need to preserve all bytes in a file(without whitespace and all) without
+    cin removing whitespace/escape characters
+
+
+18) What does isalnum(c) do?
+    isalnum checks if a character is either a alphabetical character or numerical.
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+

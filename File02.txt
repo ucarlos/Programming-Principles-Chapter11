@@ -1,0 +1,22 @@
+if you want a horror story, there's a chip on motherboards (in case of amd it's psp and
+in case of intel it's ime) that, if hacked, allows invisible persistent control over
+your pc or laptop. these are used for remote administration when your server far away
+isn't starting so you need to connect to the box without os. oh, and there's no way
+to detect if that thing is hacked or misused.
+
+when people show a terminal in trailers it's almost always something funny.
+i vividly remember watch dogs 2 trailer where "hacker" characters had a terminal open where they
+did `sudo apt-get install` (which is a basic application installation command for
+ubuntu) and then `rm profile`. which would mean that their hacking is installing
+minesweeper on their computer and then deleting a file (from their own computer).
+
+as for some basic knowledge, your pc consists of several things. firmware, bios, uefi is
+how your hardware works. then comes in your os kernel - a thing that allocates your
+hardware resources to different tasks. then there's a bootloader/partition table - a way
+for computer to tell where and how your files are stored and where your system is
+located. drivers provide a way for applications to use hardware to its full potential.
+then there are services and daemons - small programs that always run on the background,
+they will notify you if your disk space runs out for example. then there's root/
+administrator level - a way for user layer programs to have full access to protected
+stuff on your pc. then there's user level - programs run in a (theoretically) safe
+environment with restrictions that don't allow them to do a lot of damage.
