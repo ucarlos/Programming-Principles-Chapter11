@@ -1,0 +1,54 @@
+#+title: Chapter 11 Review
+#+author: Ulysses Carlos
+#+date: <2019-11-09 Sat>
+#+OPTIONS: toc:nil
+#+latex_class_options: [12pt]
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{mathpazo}
+#+LaTeX_HEADER: \linespread{1.05}
+#+LaTeX_HEADER: \usepackage[scaled]{helvet}
+#+LaTeX_HEADER: \usepackage{courier}
+* Review Questions
+** Why is I/O tricky for a programmer?
+Because there are multiple methods of reading/writing to a file.
+** What does the notation *<< hex* do?
+It changes a istream/ostream to either accept hex input or write using hex output
+** What are hexadecimal numbers used for in computer science? Why?
+Hexadecimal is usually used at the hardware level (such as memory, pointers) due to the fact that two hex digits can be used to represent a byte.
+** Name some of the options you may want to implement for formatting integer output.
++ You can use hex, dec, and oct to transform input/output into hexadecimal, decimal and octal bases.
++ Using setw(), you can set the width that a number can take up.
+** What is an manipulator?
+A manipulator is a means of changing the behavior of iostream into accepting different types of input and output.
+** What is the prefix for decimal? For octal? For hexadecimal?
+Dec, oct and hex respectively.
+** What is the default output format for floating-point values?
+defaultfloat
+** What is a field?
+A field is a ways to format integer values.
+** Explain what setprecision() and setw() do.
+*setprecision()* changes the number of digits a floating-number can take up. These include the following:
++ Using *setprecision()* on a defaultfloat sets the max number of digits it can take up.
++ Using *setprecision()* on a fixed or scientific sets the max number of digits past the digit mark (decimal point)
+  
+Using *setw()* changes the amount of space an integer/char/string can take up. It must be used before each argument since does not persist like *setprecision()* does.  
+** What is the purpose of file open modes?
+The purpose of a file open mode is to allow the user to choose how ifstream/fstream/ofstream manipulates a file.
+** Which of the following manipulators does not "stick" : hex, scientific, setprecision(), showbase, setw?
+setw() is not persistent.
+** What is the difference between character I/O and binary I/O ?
+Character I/O converts characters from a file into the specified data type, while binary I/O treats each byte at the binary level (i.e with no sort of formatting)
+** Give an example of when it would probably be beneficial to use a binary file instead of a text file.
+An example of using ios_base::binary would be when the file you are dealing with is an image or audio file that cannot be manipulated as a character (whether it be ASCII or Unicode or whatever).
+** Give two examples where a stringstream can be useful.
++ When you want to read an integer/double from a string
++ Formatting input from an ifstream/fstream
++ Creating a string to be passed as an function argument
+** What is a file position?
+A file position is a pointer that points to a location in a file (I mean in bytes). Since C++ treats a file as a series of bytes, the pointer moves to either a specific byte or moved due to istream/ostream.
+** What happens if you position a file position beyond the end of file (EOF)?
+Honestly, its unexpected behavior that is handled by the operating system. For example, I've seen that (on Ubuntu 18.04) that it just spits out garbage characters.
+** When would you prefer line-oriented input to type-specific input?
+If you need to preserve all bytes in a file(without whitespace and all) without cin removing whitespace/escape characters.
+** What does isalnum(c) do?
+isalnum checks if a character is either a alphabetical character or numerical.
